@@ -8883,6 +8883,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   throttle: 0.086
+  airBrakes: 0
 --- !u!114 &1466280287
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8894,7 +8895,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9227722e7356bf04884ee9ac407a1093, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MaxEnginePower: 0.35
+  MaxEnginePower: 1
   RollEffect: 0.2
   PitchEffect: 0.2
   YawEffect: 0.2
@@ -8902,8 +8903,8 @@ MonoBehaviour:
   AutoTurnPitch: 0
   AutoRollLevel: 0.1
   AutoPitchLevel: 0.1
-  AirBreaksEffect: 3
-  ThrottleChangeSpeed: 0.1
+  AirBreaksEffect: 500
+  ThrottleChangeSpeed: 0.5
   DragIncreaseFactor: 0.001
 --- !u!54 &1466280288
 Rigidbody:
